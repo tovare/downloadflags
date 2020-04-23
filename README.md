@@ -1,5 +1,7 @@
 # Download Flags of the world
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/tovare/downloadflags)
+
 A small script to download all flags in svg-format from Wikipedia and optionally
 convert them into small 40px wide png files for use as Shapes in Tableau.
 

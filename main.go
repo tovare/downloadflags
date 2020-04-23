@@ -73,6 +73,9 @@ func downloadAll(table stringtable.Table, destinationFolder string) (err error) 
 		}
 		defer out.Close()
 		_, err = io.Copy(out, resp.Body)
+		if err != nil {
+			return err
+		}
 	}
 	return
 }
